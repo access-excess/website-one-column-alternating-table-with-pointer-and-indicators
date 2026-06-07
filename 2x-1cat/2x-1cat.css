@@ -1,0 +1,53 @@
+   /*  -------------------------------------------  */
+   /*    author: https://github.com/access-excess   */
+   /*              published: 7-6-2026              */
+   /*  license: https://spdx.org/licenses/MIT.html  */
+   /*  -------------------------------------------  */
+
+
+      section.Sec {
+        position: absolute;
+        top: 80px;
+        width: 300px;
+        height: 130px
+      }
+
+      table.Tab {
+        width: 100%;
+        border: 1px solid black;
+        padding: 5px;
+        caption.top {caption-side: top};
+        cursor: default;
+        a:link {color: black; text-decoration: none};
+        a:visited {color: black};
+        a:active {color: black};
+        td {text-align: center; font-size: small}
+      }
+
+      div.trg {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border: 0px solid black;
+        display: none
+      }
+
+      div.Descr1 {
+        position:absolute;
+        top:275px;
+        left:100px;
+        height:250px;
+        width:600px;
+        border:1px dashed black;
+        display:none
+      }
+
+      div.Descr2 {
+        position:absolute;
+        top:625px;
+        left:100px;
+        height:250px;
+        width:600px;
+        border:1px dashed black;
+        display:none
+      }
