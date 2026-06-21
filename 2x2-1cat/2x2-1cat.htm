@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>website one-column alternating table with pointer and indicators</title>
+
+    <!--  -------------------------------------------  -->
+    <!--    author: https://github.com/access-excess   -->
+    <!--              published: 22-6-2026             -->
+    <!--  license: https://spdx.org/licenses/MIT.html  -->
+    <!--  -------------------------------------------  -->
+
+    <base href="D:/2x2-1cat/">
+    <link rel="stylesheet" type="text/css" href="2x2-1cat.css">
+    <script type="text/javascript" src="tbl1.js"></script>
+    <script type="text/javascript" src="tbl2.js"></script>
+    <script type="text/javascript" src="tbl3.js"></script>
+    <script type="text/javascript" src="tbl4.js"></script>
+
+  </head>
+
+  <body>
+
+    <!--  ------------- section table 1 -------------  -->
+
+    <section id="TB1"; class="Sec-TB1"; style="border:0px dotted blue; display:block">  <!--  tables groups  -->
+      <table id="tb1"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb1()"; onmouseleave="mouseLeave0tb1()"; onclick="Click0tb1()"; href="href-1/tab1-descr.htm"; target="_blank">TABLE 1</a>
+	  <div id="cap-trg-tb1"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb1"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb1()"; onmouseleave="mouseLeave1tb1()"; onclick="Click1tb1()">OBJECT 1</a>
+	    <div id="row1-trg-tb1"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb1"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb1()"; onmouseleave="mouseLeave2tb1()"; onclick="Click2tb1()">OBJECT 2</a>
+	    <div id="row2-trg-tb1"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb1"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb1()"; onmouseleave="mouseLeave3tb1()"; onclick="Click3tb1()">OBJECT 3</a>
+	    <div id="row3-trg-tb1"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb1"; class="sqr"; style="top:72px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB1OBJ1"; class="Sec-TB1"; style="border:0px dotted green; display:none">  <!--  group object 1  -->
+      <table id="tb1obj1"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb1obj1()"; onmouseleave="mouseLeave0tb1obj1()"; onclick="Click0tb1obj1()">OBJECT 1</a>
+	  <div id="cap-trg-tb1obj1"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb1obj1"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb1obj1()"; onmouseleave="mouseLeave1tb1obj1()"; onclick="Click1tb1obj1()"; href="href-1/tab1-obj1-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb1obj1"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb1obj1"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb1obj1()"; onmouseleave="mouseLeave2tb1obj1()"; onclick="Click2tb1obj1()"; href="href-1/tab1-obj1-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb1obj1"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb1obj1"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb1obj1()"; onmouseleave="mouseLeave3tb1obj1()"; onclick="Click3tb1obj1()"; href="href-1/tab1-obj1-prop3-descr.htm"; target="_blank">PROPERTY 3</a>
+	    <div id="row3-trg-tb1obj1"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb1obj1"; class="sqr"; style="top:72px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter4tb1obj1()"; onmouseleave="mouseLeave4tb1obj1()"; onclick="Click4tb1obj1()"; href="href-1/tab1-obj1-prop4-descr.htm"; target="_blank">PROPERTY 4</a>
+	    <div id="row4-trg-tb1obj1"; class="trg"; style="top:87px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row4-sqr-tb1obj1"; class="sqr"; style="top:92px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB1OBJ2"; class="Sec-TB1"; style="border:0px dotted green; display:none">  <!--  group object 2  -->
+      <table id="tb1obj2"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb1obj2()"; onmouseleave="mouseLeave0tb1obj2()"; onclick="Click0tb1obj2()">OBJECT 2</a>
+	  <div id="cap-trg-tb1obj2"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb1obj2"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb1obj2()"; onmouseleave="mouseLeave1tb1obj2()"; onclick="Click1tb1obj2()"; href="href-1/tab1-obj2-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb1obj2"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb1obj2"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb1obj2()"; onmouseleave="mouseLeave2tb1obj2()"; onclick="Click2tb1obj2()"; href="href-1/tab1-obj2-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb1obj2"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb1obj2"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb1obj2()"; onmouseleave="mouseLeave3tb1obj2()"; onclick="Click3tb1obj2()"; href="href-1/tab1-obj2-prop3-descr.htm"; target="_blank">PROPERTY 3</a>
+	    <div id="row3-trg-tb1obj2"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb1obj2"; class="sqr"; style="top:72px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB1OBJ3"; class="Sec-TB1"; style="border:0px dotted green; display:none">  <!--  group object 3  -->
+      <table id="tb1obj3"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb1obj3()"; onmouseleave="mouseLeave0tb1obj3()"; onclick="Click0tb1obj3()">OBJECT 3</a>
+	  <div id="cap-trg-tb1obj3"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb1obj3"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb1obj3()"; onmouseleave="mouseLeave1tb1obj3()"; onclick="Click1tb1obj3()"; href="href-1/tab1-obj3-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb1obj3"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb1obj3"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb1obj3()"; onmouseleave="mouseLeave2tb1obj3()"; onclick="Click2tb1obj3()"; href="href-1/tab1-obj3-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb1obj3"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb1obj3"; class="sqr"; style="top:52px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <!--  ------------- section table 2 -------------  -->
+
+    <section id="TB2"; class="Sec-TB2"; style="border:0px dotted blue; display:block">  <!--  tables groups  -->
+      <table id="tb2"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb2()"; onmouseleave="mouseLeave0tb2()"; onclick="Click0tb2()"; href="href-2/tab2-descr.htm"; target="_blank">TABLE 2</a>
+	  <div id="cap-trg-tb2"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb2"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb2()"; onmouseleave="mouseLeave1tb2()"; onclick="Click1tb2()">OBJECT 1</a>
+	    <div id="row1-trg-tb2"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb2"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb2()"; onmouseleave="mouseLeave2tb2()"; onclick="Click2tb2()">OBJECT 2</a>
+	    <div id="row2-trg-tb2"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb2"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb2()"; onmouseleave="mouseLeave3tb2()"; onclick="Click3tb2()">OBJECT 3</a>
+	    <div id="row3-trg-tb2"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb2"; class="sqr"; style="top:72px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB2OBJ1"; class="Sec-TB2"; style="border:0px dotted green; display:none">  <!--  group object 1  -->
+      <table id="tb2obj1"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb2obj1()"; onmouseleave="mouseLeave0tb2obj1()"; onclick="Click0tb2obj1()">OBJECT 1</a>
+	  <div id="cap-trg-tb2obj1"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb2obj1"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb2obj1()"; onmouseleave="mouseLeave1tb2obj1()"; onclick="Click1tb2obj1()"; href="href-2/tab2-obj1-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb2obj1"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb2obj1"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb2obj1()"; onmouseleave="mouseLeave2tb2obj1()"; onclick="Click2tb2obj1()"; href="href-2/tab2-obj1-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb2obj1"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb2obj1"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb2obj1()"; onmouseleave="mouseLeave3tb2obj1()"; onclick="Click3tb2obj1()"; href="href-2/tab2-obj1-prop3-descr.htm"; target="_blank">PROPERTY 3</a>
+	    <div id="row3-trg-tb2obj1"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb2obj1"; class="sqr"; style="top:72px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter4tb2obj1()"; onmouseleave="mouseLeave4tb2obj1()"; onclick="Click4tb2obj1()"; href="href-2/tab2-obj1-prop4-descr.htm"; target="_blank">PROPERTY 4</a>
+	    <div id="row4-trg-tb2obj1"; class="trg"; style="top:87px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row4-sqr-tb2obj1"; class="sqr"; style="top:92px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB2OBJ2"; class="Sec-TB2"; style="border:0px dotted green; display:none">  <!--  group object 2  -->
+      <table id="tb2obj2"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb2obj2()"; onmouseleave="mouseLeave0tb2obj2()"; onclick="Click0tb2obj2()">OBJECT 2</a>
+	  <div id="cap-trg-tb2obj2"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb2obj2"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb2obj2()"; onmouseleave="mouseLeave1tb2obj2()"; onclick="Click1tb2obj2()"; href="href-2/tab2-obj2-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb2obj2"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb2obj2"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb2obj2()"; onmouseleave="mouseLeave2tb2obj2()"; onclick="Click2tb2obj2()"; href="href-2/tab2-obj2-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb2obj2"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb2obj2"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb2obj2()"; onmouseleave="mouseLeave3tb2obj2()"; onclick="Click3tb2obj2()"; href="href-2/tab2-obj2-prop3-descr.htm"; target="_blank">PROPERTY 3</a>
+	    <div id="row3-trg-tb2obj2"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb2obj2"; class="sqr"; style="top:72px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB2OBJ3"; class="Sec-TB2"; style="border:0px dotted green; display:none">  <!--  group object 3  -->
+      <table id="tb2obj3"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb2obj3()"; onmouseleave="mouseLeave0tb2obj3()"; onclick="Click0tb2obj3()">OBJECT 3</a>
+	  <div id="cap-trg-tb2obj3"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb2obj3"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb2obj3()"; onmouseleave="mouseLeave1tb2obj3()"; onclick="Click1tb2obj3()"; href="href-2/tab2-obj3-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb2obj3"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb2obj3"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb2obj3()"; onmouseleave="mouseLeave2tb2obj3()"; onclick="Click2tb2obj3()"; href="href-2/tab2-obj3-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb2obj3"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb2obj3"; class="sqr"; style="top:52px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <!--  ------------- section table 3 -------------  -->
+
+    <section id="TB3"; class="Sec-TB3"; style="border:0px dotted blue; display:block">  <!--  tables groups  -->
+      <table id="tb3"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb3()"; onmouseleave="mouseLeave0tb3()"; onclick="Click0tb3()"; href="href-3/tab3-descr.htm"; target="_blank">TABLE 3</a>
+	  <div id="cap-trg-tb3"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb3"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb3()"; onmouseleave="mouseLeave1tb3()"; onclick="Click1tb3()">OBJECT 1</a>
+	    <div id="row1-trg-tb3"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb3"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb3()"; onmouseleave="mouseLeave2tb3()"; onclick="Click2tb3()">OBJECT 2</a>
+	    <div id="row2-trg-tb3"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb3"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb3()"; onmouseleave="mouseLeave3tb3()"; onclick="Click3tb3()">OBJECT 3</a>
+	    <div id="row3-trg-tb3"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb3"; class="sqr"; style="top:72px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB3OBJ1"; class="Sec-TB3"; style="border:0px dotted green; display:none">  <!--  group object 1  -->
+      <table id="tb3obj1"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb3obj1()"; onmouseleave="mouseLeave0tb3obj1()"; onclick="Click0tb3obj1()">OBJECT 1</a>
+	  <div id="cap-trg-tb3obj1"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb3obj1"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb3obj1()"; onmouseleave="mouseLeave1tb3obj1()"; onclick="Click1tb3obj1()"; href="href-3/tab3-obj1-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb3obj1"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb3obj1"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb3obj1()"; onmouseleave="mouseLeave2tb3obj1()"; onclick="Click2tb3obj1()"; href="href-3/tab3-obj1-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb3obj1"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb3obj1"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb3obj1()"; onmouseleave="mouseLeave3tb3obj1()"; onclick="Click3tb3obj1()"; href="href-3/tab3-obj1-prop3-descr.htm"; target="_blank">PROPERTY 3</a>
+	    <div id="row3-trg-tb3obj1"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb3obj1"; class="sqr"; style="top:72px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter4tb3obj1()"; onmouseleave="mouseLeave4tb3obj1()"; onclick="Click4tb3obj1()"; href="href-3/tab3-obj1-prop4-descr.htm"; target="_blank">PROPERTY 4</a>
+	    <div id="row4-trg-tb3obj1"; class="trg"; style="top:87px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row4-sqr-tb3obj1"; class="sqr"; style="top:92px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB3OBJ2"; class="Sec-TB3"; style="border:0px dotted green; display:none">  <!--  group object 2  -->
+      <table id="tb3obj2"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb3obj2()"; onmouseleave="mouseLeave0tb3obj2()"; onclick="Click0tb3obj2()">OBJECT 2</a>
+	  <div id="cap-trg-tb3obj2"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb3obj2"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb3obj2()"; onmouseleave="mouseLeave1tb3obj2()"; onclick="Click1tb3obj2()"; href="href-3/tab3-obj2-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb3obj2"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb3obj2"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb3obj2()"; onmouseleave="mouseLeave2tb3obj2()"; onclick="Click2tb3obj2()"; href="href-3/tab3-obj2-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb3obj2"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb3obj2"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb3obj2()"; onmouseleave="mouseLeave3tb3obj2()"; onclick="Click3tb3obj2()"; href="href-3/tab3-obj2-prop3-descr.htm"; target="_blank">PROPERTY 3</a>
+	    <div id="row3-trg-tb3obj2"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb3obj2"; class="sqr"; style="top:72px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB3OBJ3"; class="Sec-TB3"; style="border:0px dotted green; display:none">  <!--  group object 3  -->
+      <table id="tb3obj3"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb3obj3()"; onmouseleave="mouseLeave0tb3obj3()"; onclick="Click0tb3obj3()">OBJECT 3</a>
+	  <div id="cap-trg-tb3obj3"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb3obj3"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb3obj3()"; onmouseleave="mouseLeave1tb3obj3()"; onclick="Click1tb3obj3()"; href="href-3/tab3-obj3-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb3obj3"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb3obj3"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb3obj3()"; onmouseleave="mouseLeave2tb3obj3()"; onclick="Click2tb3obj3()"; href="href-3/tab3-obj3-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb3obj3"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb3obj3"; class="sqr"; style="top:52px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <!--  ------------- section table 4 -------------  -->
+
+    <section id="TB4"; class="Sec-TB4"; style="border:0px dotted blue; display:block">  <!--  tables groups  -->
+      <table id="tb4"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb4()"; onmouseleave="mouseLeave0tb4()"; onclick="Click0tb4()"; href="href-4/tab4-descr.htm"; target="_blank">TABLE 4</a>
+	  <div id="cap-trg-tb4"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb4"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb4()"; onmouseleave="mouseLeave1tb4()"; onclick="Click1tb4()">OBJECT 1</a>
+	    <div id="row1-trg-tb4"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb4"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb4()"; onmouseleave="mouseLeave2tb4()"; onclick="Click2tb4()">OBJECT 2</a>
+	    <div id="row2-trg-tb4"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb4"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb4()"; onmouseleave="mouseLeave3tb4()"; onclick="Click3tb4()">OBJECT 3</a>
+	    <div id="row3-trg-tb4"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb4"; class="sqr"; style="top:72px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB4OBJ1"; class="Sec-TB4"; style="border:0px dotted green; display:none">  <!--  group object 1  -->
+      <table id="tb4obj1"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb4obj1()"; onmouseleave="mouseLeave0tb4obj1()"; onclick="Click0tb4obj1()">OBJECT 1</a>
+	  <div id="cap-trg-tb4obj1"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb4obj1"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb4obj1()"; onmouseleave="mouseLeave1tb4obj1()"; onclick="Click1tb4obj1()"; href="href-4/tab4-obj1-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb4obj1"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb4obj1"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb4obj1()"; onmouseleave="mouseLeave2tb4obj1()"; onclick="Click2tb4obj1()"; href="href-4/tab4-obj1-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb4obj1"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb4obj1"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb4obj1()"; onmouseleave="mouseLeave3tb4obj1()"; onclick="Click3tb1obj1()"; href="href-4/tab4-obj1-prop3-descr.htm"; target="_blank">PROPERTY 3</a>
+	    <div id="row3-trg-tb4obj1"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb4obj1"; class="sqr"; style="top:72px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter4tb4obj1()"; onmouseleave="mouseLeave4tb4obj1()"; onclick="Click4tb4obj1()"; href="href-4/tab4-obj1-prop4-descr.htm"; target="_blank">PROPERTY 4</a>
+	    <div id="row4-trg-tb4obj1"; class="trg"; style="top:87px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row4-sqr-tb4obj1"; class="sqr"; style="top:92px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB4OBJ2"; class="Sec-TB4"; style="border:0px dotted green; display:none">  <!--  group object 2  -->
+      <table id="tb4obj2"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb4obj2()"; onmouseleave="mouseLeave0tb4obj2()"; onclick="Click0tb4obj2()">OBJECT 2</a>
+	  <div id="cap-trg-tb4obj2"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb4obj2"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb4obj2()"; onmouseleave="mouseLeave1tb4obj2()"; onclick="Click1tb4obj2()"; href="href-4/tab4-obj2-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb4obj2"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb4obj2"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb4obj2()"; onmouseleave="mouseLeave2tb4obj2()"; onclick="Click2tb4obj2()"; href="href-4/tab4-obj2-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb4obj2"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb4obj2"; class="sqr"; style="top:52px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter3tb4obj2()"; onmouseleave="mouseLeave3tb4obj2()"; onclick="Click3tb4obj2()"; href="href-4/tab4-obj2-prop3-descr.htm"; target="_blank">PROPERTY 3</a>
+	    <div id="row3-trg-tb4obj2"; class="trg"; style="top:67px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row3-sqr-tb4obj2"; class="sqr"; style="top:72px"/>
+          </td></tr>
+      </table>
+    </section>
+
+    <section id="TB4OBJ3"; class="Sec-TB4"; style="border:0px dotted green; display:none">  <!--  group object 3  -->
+      <table id="tb4obj3"; class="Tab">
+        <caption>
+	  <a style="cursor:default"; onmouseenter="mouseEnter0tb4obj3()"; onmouseleave="mouseLeave0tb4obj3()"; onclick="Click0tb4obj3()">OBJECT 3</a>
+	  <div id="cap-trg-tb4obj3"; class="trg"; style="top:-1px">
+	    <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	  </div>
+	  <div id="cap-sqr-tb4obj3"; class="sqr"; style="top:6px"/>
+        </caption>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter1tb4obj3()"; onmouseleave="mouseLeave1tb4obj3()"; onclick="Click1tb4obj3()"; href="href-4/tab4-obj3-prop1-descr.htm"; target="_blank">PROPERTY 1</a>
+	    <div id="row1-trg-tb4obj3"; class="trg"; style="top:27px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row1-sqr-tb4obj3"; class="sqr"; style="top:32px"/>
+          </td></tr>
+	  <tr><td>
+	    <a style="cursor:default"; onmouseenter="mouseEnter2tb4obj3()"; onmouseleave="mouseLeave2tb4obj3()"; onclick="Click2tb4obj3()"; href="href-4/tab4-obj3-prop2-descr.htm"; target="_blank">PROPERTY 2</a>
+	    <div id="row2-trg-tb4obj3"; class="trg"; style="top:47px">
+	      <svg height="10" width="10"><polygon points="0,0 5,5 0,10"/>
+	    </div>
+	    <div id="row2-sqr-tb4obj3"; class="sqr"; style="top:52px"/>
+          </td></tr>
+      </table>
+    </section>
+
+  </body>
+
+</html>
